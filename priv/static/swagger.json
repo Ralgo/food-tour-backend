@@ -1,0 +1,282 @@
+{
+  "definitions": {
+    "Dishes": {
+      "description": "A food dish used as a tour path element",
+      "example": {
+        "data": [
+          {
+            "description": "Delicious plate from korea vegan and spicy",
+            "id": 11,
+            "image": "https://okdiario.com/img/2016/12/01/kimchi-655x368.jpg",
+            "inserted_at": "2023-09-14T09:15:29",
+            "location": {
+              "description": "location ",
+              "id": 1,
+              "image": " :string",
+              "inserted_at": "2023-09-14T10:08:06",
+              "lat": 16.2222,
+              "long": -36.0,
+              "merchant_name": "Merchant name",
+              "updated_at": "2023-09-14T10:08:06"
+            },
+            "location_id": 1,
+            "name": "Kimchi",
+            "price": "20000.00",
+            "themes": [
+              {
+                "id": 1,
+                "image": "https://www.bestphysicaltherapistnyc.com/wp-content/uploads/2015/08/spicy-hot-peppers-eat-stock-today-150811-tease_f7b41454927b007b3a9be5e376161b7c.today-inline-large2x-e1439943727549.jpg",
+                "inserted_at": "2023-09-13T21:53:32",
+                "subtitle": "short description",
+                "title": "Spicy",
+                "updated_at": "2023-09-13T21:53:32"
+              }
+            ],
+            "updated_at": "2023-09-14T09:15:29"
+          }
+        ]
+      },
+      "properties": {
+        "description": {
+          "description": "Dish's short description",
+          "type": "string"
+        },
+        "id": {
+          "description": "Dish's unique id",
+          "type": "string"
+        },
+        "image": {
+          "description": "Dish's image for list display",
+          "type": "string"
+        },
+        "price": {
+          "description": "Dish's price",
+          "type": "number"
+        },
+        "subtitle": {
+          "description": "Dish's short brief subtitle for panel list",
+          "type": "string"
+        },
+        "title": {
+          "description": "Dish's title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "image",
+        "price",
+        "description",
+        "subtitle",
+        "title",
+        "id"
+      ],
+      "title": "Dishes",
+      "type": "object"
+    },
+    "Themes": {
+      "description": "A tours theme. Ex. Vegan, Mexican, Crazy, Sweet, Spicy, Asian",
+      "example": {
+        "data": [
+          {
+            "id": 1,
+            "image": "https://www.bestphysicaltherapistnyc.com/wp-content/uploads/2015/08/spicy-hot-peppers-eat-stock-today-150811-tease_f7b41454927b007b3a9be5e376161b7c.today-inline-large2x-e1439943727549.jpg",
+            "subtitle": "short description",
+            "title": "Spicy"
+          },
+          {
+            "id": 2,
+            "image": "https://media.timeout.com/images/105937856/1920/1080/image.jpg",
+            "subtitle": "short description for vegan food's tours where vegans can try vega stuffs",
+            "title": "Vegan"
+          }
+        ]
+      },
+      "properties": {
+        "id": {
+          "description": "Theme's unique id",
+          "type": "string"
+        },
+        "image": {
+          "description": "Theme's image for list display",
+          "type": "string"
+        },
+        "subtitle": {
+          "description": "Theme's short description",
+          "type": "string"
+        },
+        "title": {
+          "description": "Theme's title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "image",
+        "subtitle",
+        "title",
+        "id"
+      ],
+      "title": "Theme",
+      "type": "object"
+    },
+    "Tour": {
+      "description": "Tour element",
+      "example": {
+        "tour": {
+          "estimated_time": 1234,
+          "name": "Sweet Thooth",
+          "price": 1700,
+          "waypoints": [
+            {
+              "description": "Delicious Hazelnut- Raspberry Cake",
+              "dish_id": 1,
+              "eta": 25,
+              "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRed-HazelNutRaspeberryCake.jpeg?raw=true",
+              "inserted_at": "2023-09-14T12:28:27",
+              "location": {
+                "description": "Bulgarian Cuisine",
+                "id": 1,
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRead-RestHeader.jpeg?raw=true",
+                "inserted_at": "2023-09-14T11:47:19",
+                "lat": 42.696558840340266,
+                "long": 23.325950390074755,
+                "merchant_name": "Shades of Red Restaurant",
+                "updated_at": "2023-09-14T11:47:19"
+              },
+              "location_id": 1,
+              "name": "Hazelnut- Raspberry Cake",
+              "order": 1,
+              "price": "4000.00",
+              "themes": [
+                {
+                  "id": 8,
+                  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOzM9cWXRoP9iqbW-GVOr8ESYxR_ZJ2XTZA&usqp=CAU",
+                  "inserted_at": "2023-09-14T12:24:59",
+                  "subtitle": "Treat yourself with some sugary sweets ",
+                  "title": "Sweet Tooth",
+                  "updated_at": "2023-09-14T12:24:59"
+                }
+              ],
+              "updated_at": "2023-09-14T12:28:27"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "estimated_time": {
+          "description": "Tour estimated total time duration",
+          "type": "number"
+        },
+        "id": {
+          "description": "Tour unique id",
+          "type": "string"
+        },
+        "name": {
+          "description": "Tour name",
+          "type": "string"
+        },
+        "price": {
+          "description": "Dish's total price",
+          "type": "number"
+        },
+        "waypoint": {
+          "description": "Waypoints",
+          "type": "array"
+        }
+      },
+      "required": [
+        "waypoint",
+        "price",
+        "name",
+        "estimated_time",
+        "id"
+      ],
+      "title": "Tour",
+      "type": "object"
+    }
+  },
+  "host": "localhost:4000",
+  "info": {
+    "basePath": "/api",
+    "title": "Food Tour API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/dishes": {
+      "get": {
+        "description": "List dishes",
+        "operationId": "FoodTourAppWeb.DishController.index",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Dishes"
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dish"
+        ]
+      }
+    },
+    "/api/themes": {
+      "get": {
+        "description": "List themes",
+        "operationId": "FoodTourAppWeb.ThemeController.index",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Themes"
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Theme"
+        ]
+      }
+    },
+    "/api/tours/create_tour": {
+      "post": {
+        "description": "Generate a new tour",
+        "operationId": "FoodTourAppWeb.TourController.create_tour",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Tour"
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Tour"
+        ]
+      }
+    },
+    "/api/tours/generate_tour": {
+      "post": {
+        "description": "Fetches a new tour",
+        "operationId": "FoodTourAppWeb.TourController.generate_tour",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Tour"
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Tour"
+        ]
+      }
+    }
+  },
+  "swagger": "2.0"
+}

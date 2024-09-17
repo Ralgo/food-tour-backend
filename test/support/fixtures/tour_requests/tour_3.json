@@ -1,0 +1,137 @@
+{
+    "tour": {
+        "name": "Flavours of the Sea",
+        "estimated_time": 1234,
+        "price": 20000,
+        "waypoints": [
+            {
+                "dish_id": 2,
+                "order": 1,
+                "eta": 25,
+                "updated_at": "2023-09-14T12:30:14",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:51:59",
+                        "title": "Flavours of the Sea",
+                        "subtitle": "All the fresh tastes of the Ocean",
+                        "inserted_at": "2023-09-13T08:51:59",
+                        "image": "https://montrealnightlife.com/wp-content/uploads/2023/05/MOntreal-Seafood.jpg",
+                        "id": 6
+                    }
+                ],
+                "price": "10000.00",
+                "name": "Octopus Salad",
+                "location_id": 1,
+                "location": {
+                    "updated_at": "2023-09-14T11:47:19",
+                    "merchant_name": "Shades of Red Restaurant",
+                    "long": 23.325950390074755,
+                    "lat": 42.696558840340266,
+                    "inserted_at": "2023-09-14T11:47:19",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRead-RestHeader.jpeg?raw=true",
+                    "id": 1,
+                    "description": "Bulgarian Cuisine"
+                },
+                "inserted_at": "2023-09-14T12:30:14",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/ShadesOfRed-OctopusSalad.jpeg?raw=true",
+                "description": "Mixed Green Salad featuring tender grilled octopus and a zesty capers dressing takes"
+            },
+            {
+                "dish_id": 7,
+                "order": 2,
+                "eta": 15,
+                "updated_at": "2023-09-14T12:38:30",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:51:59",
+                        "title": "Flavours of the Sea",
+                        "subtitle": "All the fresh tastes of the Ocean",
+                        "inserted_at": "2023-09-13T08:51:59",
+                        "image": "https://montrealnightlife.com/wp-content/uploads/2023/05/MOntreal-Seafood.jpg",
+                        "id": 6
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Salmon",
+                "location_id": 2,
+                "location": {
+                    "updated_at": "2023-09-14T11:50:27",
+                    "merchant_name": "Spaghetti Kitchen",
+                    "long": 23.330128708021284,
+                    "lat": 42.69376098265446,
+                    "inserted_at": "2023-09-14T11:50:27",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-kitchen.jpeg?raw=true",
+                    "id": 2,
+                    "description": "Italian Food"
+                },
+                "inserted_at": "2023-09-14T12:38:30",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-salmon.jpeg?raw=true",
+                "description": "norwegian salmon with spicy mango chutney, served on lemon orzo pasta"
+            },
+            {
+                "dish_id": 17,
+                "order": 3,
+                "eta": 20,
+                "updated_at": "2023-09-14T13:03:32",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:51:59",
+                        "title": "Flavours of the Sea",
+                        "subtitle": "All the fresh tastes of the Ocean",
+                        "inserted_at": "2023-09-13T08:51:59",
+                        "image": "https://montrealnightlife.com/wp-content/uploads/2023/05/MOntreal-Seafood.jpg",
+                        "id": 6
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Fish Dish",
+                "location_id": 4,
+                "location": {
+                    "updated_at": "2023-09-14T11:53:26",
+                    "merchant_name": "Made in Blue",
+                    "long": 23.32570296785343,
+                    "lat": 42.69422630990759,
+                    "inserted_at": "2023-09-14T11:53:26",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-header.jpeg?raw=true",
+                    "id": 4,
+                    "description": "Modern European Restaurant"
+                },
+                "inserted_at": "2023-09-14T13:03:32",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-Fish.jpeg?raw=true",
+                "description": "Grilled Fish with potatoes and mayoneise salad"
+            },
+            {
+                "dish_id": 11,
+                "order": 4,
+                "eta": 20,
+                "updated_at": "2023-09-14T12:51:29",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:51:59",
+                        "title": "Flavours of the Sea",
+                        "subtitle": "All the fresh tastes of the Ocean",
+                        "inserted_at": "2023-09-13T08:51:59",
+                        "image": "https://montrealnightlife.com/wp-content/uploads/2023/05/MOntreal-Seafood.jpg",
+                        "id": 6
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Squid Salad",
+                "location_id": 3,
+                "location": {
+                    "updated_at": "2023-09-14T11:51:36",
+                    "merchant_name": "The Little Things",
+                    "long": 23.328125542932177,
+                    "lat": 42.68986365345295,
+                    "inserted_at": "2023-09-14T11:51:36",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/TheLittleThings/littlethings-headers.jpeg?raw=true",
+                    "id": 3,
+                    "description": "European Restaurant"
+                },
+                "inserted_at": "2023-09-14T12:51:29",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/TheLittleThings/littlethings-squidsalad.jpeg?raw=true",
+                "description": "Sautéed squid with zucchini, cherry tomatoes, pepper, garlic, Tajasca olives, seasoned with ouzo, lemon and parsley"
+            }
+        ]
+    }
+}

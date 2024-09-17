@@ -1,0 +1,137 @@
+{
+    "tour": {
+        "name": "Sweet Thooth",
+        "estimated_time": 1234,
+        "price": 1700,
+        "waypoints": [
+            {
+                "dish_id": 1,
+                "order": 1,
+                "eta": 25,
+                "updated_at": "2023-09-14T12:28:27",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-14T12:24:59",
+                        "title": "Sweet Tooth",
+                        "subtitle": "Treat yourself with some sugary sweets ",
+                        "inserted_at": "2023-09-14T12:24:59",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOzM9cWXRoP9iqbW-GVOr8ESYxR_ZJ2XTZA&usqp=CAU",
+                        "id": 8
+                    }
+                ],
+                "price": "4000.00",
+                "name": "Hazelnut- Raspberry Cake",
+                "location_id": 1,
+                "location": {
+                    "updated_at": "2023-09-14T11:47:19",
+                    "merchant_name": "Shades of Red Restaurant",
+                    "long": 23.325950390074755,
+                    "lat": 42.696558840340266,
+                    "inserted_at": "2023-09-14T11:47:19",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRead-RestHeader.jpeg?raw=true",
+                    "id": 1,
+                    "description": "Bulgarian Cuisine"
+                },
+                "inserted_at": "2023-09-14T12:28:27",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRed-HazelNutRaspeberryCake.jpeg?raw=true",
+                "description": "Delicious Hazelnut- Raspberry Cake"
+            },
+            {
+                "dish_id": 6,
+                "order": 2,
+                "eta": 15,
+                "updated_at": "2023-09-14T12:37:24",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-14T12:24:59",
+                        "title": "Sweet Tooth",
+                        "subtitle": "Treat yourself with some sugary sweets ",
+                        "inserted_at": "2023-09-14T12:24:59",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOzM9cWXRoP9iqbW-GVOr8ESYxR_ZJ2XTZA&usqp=CAU",
+                        "id": 8
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Baklava",
+                "location_id": 2,
+                "location": {
+                    "updated_at": "2023-09-14T11:50:27",
+                    "merchant_name": "Spaghetti Kitchen",
+                    "long": 23.330128708021284,
+                    "lat": 42.69376098265446,
+                    "inserted_at": "2023-09-14T11:50:27",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-kitchen.jpeg?raw=true",
+                    "id": 2,
+                    "description": "Italian Food"
+                },
+                "inserted_at": "2023-09-14T12:37:24",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-baklava.jpeg?raw=true",
+                "description": "Baklava Cheesecake"
+            },
+            {
+                "dish_id": 16,
+                "order": 3,
+                "eta": 20,
+                "updated_at": "2023-09-14T13:02:44",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-14T12:24:59",
+                        "title": "Sweet Tooth",
+                        "subtitle": "Treat yourself with some sugary sweets ",
+                        "inserted_at": "2023-09-14T12:24:59",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOzM9cWXRoP9iqbW-GVOr8ESYxR_ZJ2XTZA&usqp=CAU",
+                        "id": 8
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Salted caramel chocolate tart",
+                "location_id": 4,
+                "location": {
+                    "updated_at": "2023-09-14T11:53:26",
+                    "merchant_name": "Made in Blue",
+                    "long": 23.32570296785343,
+                    "lat": 42.69422630990759,
+                    "inserted_at": "2023-09-14T11:53:26",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-header.jpeg?raw=true",
+                    "id": 4,
+                    "description": "Modern European Restaurant"
+                },
+                "inserted_at": "2023-09-14T13:02:44",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-chocolatecake.jpeg?raw=true",
+                "description": "Salted caramel chocolate tart"
+            },
+            {
+                "dish_id": 12,
+                "order": 3,
+                "eta": 20,
+                "updated_at": "2023-09-14T12:54:27",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-14T12:24:59",
+                        "title": "Sweet Tooth",
+                        "subtitle": "Treat yourself with some sugary sweets ",
+                        "inserted_at": "2023-09-14T12:24:59",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOzM9cWXRoP9iqbW-GVOr8ESYxR_ZJ2XTZA&usqp=CAU",
+                        "id": 8
+                    }
+                ],
+                "price": "3000.00",
+                "name": "Berries cake",
+                "location_id": 3,
+                "location": {
+                    "updated_at": "2023-09-14T11:51:36",
+                    "merchant_name": "The Little Things",
+                    "long": 23.328125542932177,
+                    "lat": 42.68986365345295,
+                    "inserted_at": "2023-09-14T11:51:36",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/TheLittleThings/littlethings-headers.jpeg?raw=true",
+                    "id": 3,
+                    "description": "European Restaurant"
+                },
+                "inserted_at": "2023-09-14T12:54:27",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/TheLittleThings/littlethings-berriescake.jpeg?raw=true",
+                "description": "Berries cake"
+            }
+        ]
+    }
+}

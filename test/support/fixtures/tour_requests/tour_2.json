@@ -1,0 +1,138 @@
+{
+    "tour": {
+        "name": "All The Meats",
+        "estimated_time": 1234,
+        "price": 28000,
+        "waypoints": [
+            {
+                "dish_id": 3,
+                "order": 1,
+                "eta": 25,
+                "updated_at": "2023-09-14T12:30:57",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T09:26:50",
+                        "title": "Pastas",
+                        "subtitle": "All our favorites pastas",
+                        "inserted_at": "2023-09-13T09:26:50",
+                        "image": "https://gruponutresa.b-cdn.net/wp-content/uploads/2022/08/pastas.jpg",
+                        "id": 7
+                    }
+                ],
+                "price": "10000.00",
+                "name": "Tagliatelle with porcini and beef fillet",
+                "location_id": 1,
+                "location": {
+                    "updated_at": "2023-09-14T11:47:19",
+                    "merchant_name": "Shades of Red Restaurant",
+                    "long": 23.325950390074755,
+                    "lat": 42.696558840340266,
+                    "inserted_at": "2023-09-14T11:47:19",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRead-RestHeader.jpeg?raw=true",
+                    "id": 1,
+                    "description": "Bulgarian Cuisine"
+                },
+                "inserted_at": "2023-09-14T12:30:57",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/ShadesOfRed-OctopusSalad.jpeg?raw=true",
+                "description": "Tagliatelle with porcini and beef fillet"
+            },
+            {
+                "dish_id": 9,
+                "order": 2,
+                "eta": 15,
+                "updated_at": "2023-09-14T12:47:46",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:47:37",
+                        "title": "All The Meats",
+                        "subtitle": "For Proteins Cravings",
+                        "inserted_at": "2023-09-13T08:47:37",
+                        "image": "https://admin.acceleratingscience.com/food/wp-content/uploads/sites/5/2020/10/istock-694177316_varietycookedmeats-1.jpg",
+                        "id": 5
+                    }
+                ],
+                "price": "8000.00",
+                "name": "Pizza Triprosciutto",
+                "location_id": 2,
+                "location": {
+                    "updated_at": "2023-09-14T11:50:27",
+                    "merchant_name": "Spaghetti Kitchen",
+                    "long": 23.330128708021284,
+                    "lat": 42.69376098265446,
+                    "inserted_at": "2023-09-14T11:50:27",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-kitchen.jpeg?raw=true",
+                    "id": 2,
+                    "description": "Italian Food"
+                },
+                "inserted_at": "2023-09-14T12:47:46",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/spaghetti-pizza.jpeg?raw=true",
+                "description": "Pizza with three types of prosciutto and rucula toppings"
+            },
+            {
+                "dish_id": 18,
+                "order": 3,
+                "eta": 20,
+                "updated_at": "2023-09-14T13:04:24",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:47:37",
+                        "title": "All The Meats",
+                        "subtitle": "For Proteins Cravings",
+                        "inserted_at": "2023-09-13T08:47:37",
+                        "image": "https://admin.acceleratingscience.com/food/wp-content/uploads/sites/5/2020/10/istock-694177316_varietycookedmeats-1.jpg",
+                        "id": 5
+                    }
+                ],
+                "price": "5000.00",
+                "name": "Roasted Beef",
+                "location_id": 4,
+                "location": {
+                    "updated_at": "2023-09-14T11:53:26",
+                    "merchant_name": "Made in Blue",
+                    "long": 23.32570296785343,
+                    "lat": 42.69422630990759,
+                    "inserted_at": "2023-09-14T11:53:26",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-header.jpeg?raw=true",
+                    "id": 4,
+                    "description": "Modern European Restaurant"
+                },
+                "inserted_at": "2023-09-14T13:04:24",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/MadeInBlue/madeinblue-RoastedBeef.jpeg?raw=true",
+                "description": "Slow roasted beef with parsnip purée"
+            },
+            {
+                "dish_id": 5,
+                "order": 4,
+                "eta": 20,
+                "updated_at": "2023-09-14T12:32:54",
+                "themes": [
+                    {
+                        "updated_at": "2023-09-13T08:47:37",
+                        "title": "All The Meats",
+                        "subtitle": "For Proteins Cravings",
+                        "inserted_at": "2023-09-13T08:47:37",
+                        "image": "https://admin.acceleratingscience.com/food/wp-content/uploads/sites/5/2020/10/istock-694177316_varietycookedmeats-1.jpg",
+                        "id": 5
+                    }
+                ],
+                "price": "10000.00",
+                "name": "Pork fillet",
+                "location_id": 1,
+                "location": {
+                    "updated_at": "2023-09-14T11:47:19",
+                    "merchant_name": "Shades of Red Restaurant",
+                    "long": 23.325950390074755,
+                    "lat": 42.696558840340266,
+                    "inserted_at": "2023-09-14T11:47:19",
+                    "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/ShadesOfRed/ShadesOfRead-RestHeader.jpeg?raw=true",
+                    "id": 1,
+                    "description": "Bulgarian Cuisine"
+                },
+                "inserted_at": "2023-09-14T12:32:54",
+                "image": "https://github.com/stephfz/hk-images/blob/main/imgs/HKW2023/Spaghetti-Kitchen/ShadesOfRed-OctopusSalad.jpeg?raw=true",
+                "id": 5,
+                "description": "Pork fillet"
+            }
+        ]
+    }
+}
